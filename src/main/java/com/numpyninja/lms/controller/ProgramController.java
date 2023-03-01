@@ -22,7 +22,7 @@ public class ProgramController{
     @Autowired
     private ProgramServices programServices;
 
-  //get list of programs
+  //get list of programs for all programs
   	@GetMapping(value = "/allPrograms")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
   	{ 
