@@ -26,7 +26,7 @@ import com.numpyninja.lms.services.ProgBatchServices;
 
 @RestController
 public class ProgBatchController  {
-
+//changes for heroku
     @Autowired
     private ProgBatchServices batchService;
     
