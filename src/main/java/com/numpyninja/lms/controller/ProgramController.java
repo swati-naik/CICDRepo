@@ -23,7 +23,7 @@ public class ProgramController{
     private ProgramServices programServices;
 
   //get list of programs for all programs
-  	@GetMapping(value = "/allPrograms")
+  	@GetMapping(value = "/allProgramsedit")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
   	{ 
   		System.out.println("in getall programs");
