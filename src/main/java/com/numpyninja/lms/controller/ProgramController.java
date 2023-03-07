@@ -21,9 +21,9 @@ import java.util.List;
 public class ProgramController{
     @Autowired
     private ProgramServices programServices;
-
-  //get list of programs
-  	@GetMapping(value = "/allPrograms")
+//editing this 
+  //get list of programs for all programs
+  	@GetMapping(value = "/allProgramsedit")
   	private ResponseEntity<?> getPrograms()  throws ResourceNotFoundException 
   	{ 
   		System.out.println("in getall programs");
