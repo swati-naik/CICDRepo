@@ -39,7 +39,7 @@ public class ProgBatchController  {
             return  batchService.getAllBatches();
         }
     }
-    
+    //coment
 	@GetMapping ( path = "/batches/batchId/{batchId}", produces = "application/json")
 	public ResponseEntity<BatchDTO> getBatchById(@PathVariable(value="batchId") @Positive Integer batchId) {
 		return ResponseEntity.ok(  batchService.findBatchById(batchId) );
