@@ -67,7 +67,7 @@ public class ProgBatchController  {
     }
     
     
-    //Update program Information
+    //Update program Information changes
     @PutMapping(path = "/batches/{batchId}", consumes = "application/json", produces = "application/json")
     public ResponseEntity<BatchDTO> updateBatch( @Valid @RequestBody BatchDTO batchDTO,  @PathVariable Integer batchId ) {
     	BatchDTO batchDTOUpd = batchService.updateBatch( batchDTO, batchId);
